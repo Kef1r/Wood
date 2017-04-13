@@ -1,0 +1,217 @@
+body {
+  font-family: "Open Sans", sans-serif; }
+
+.main {
+  background: #fff url("../img/bkg-header.jpg");
+  background-size: cover; }
+
+.navbar-header {
+  background: #fff;
+  opacity: .7; }
+  @media (min-width: 768px) {
+    .navbar-header {
+      background: transparent; } }
+
+.navbar-nav {
+  float: none;
+  max-width: 650px;
+  margin: 0 auto; }
+
+.main__nav {
+  text-transform: uppercase;
+  border-radius: 0;
+  border: none;
+  background: transparent; }
+  .main__nav li a {
+    font-weight: lighter;
+    font-size: 24px;
+    padding: 40px 25px;
+    background: #fff;
+    opacity: .7; }
+    @media (min-width: 768px) {
+      .main__nav li a {
+        background: transparent; } }
+    .main__nav li a .active {
+      background: #000; }
+  .main__nav li a:hover {
+    text-decoration: none; }
+  .main__nav--light {
+    border-bottom: 1px solid #ffffff; }
+    .main__nav--light li a {
+      color: #f1f1f1; }
+    .main__nav--light li a:hover {
+      color: #888;
+      outline: 1px solid #ffffff; }
+  .main__nav--dark {
+    border-bottom: 1px solid #888; }
+    .main__nav--dark li a {
+      color: #aaa; }
+    .main__nav--dark li a:hover {
+      color: #666;
+      outline: 1px solid #888; }
+
+.logo {
+  max-width: 474px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 145px; }
+  .logo img {
+    width: 100%; }
+
+.logo__header {
+  max-width: 735px;
+  font-weight: lighter;
+  font-size: 60px;
+  color: #ffffff;
+  margin: 55px auto 135px auto; }
+
+.scroll {
+  margin-top: 80px;
+  margin-bottom: 110px;
+  position: relative;
+  text-align: center; }
+  .scroll a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px; }
+    .scroll a img {
+      position: absolute;
+      top: 80px;
+      left: calc(50% - 16px); }
+  .scroll--light {
+    color: #000; }
+    .scroll--light a {
+      color: #fff; }
+  .scroll--dark a {
+    color: #bebebe; }
+  .scroll--dark .navbar-brand {
+    color: #bebebe; }
+
+.mobile-brand {
+  color: #000;
+  font-weight: bold; }
+
+.about {
+  margin-left: calc(4.7% - 15px); }
+  .about__header {
+    font-weight: lighter;
+    font-size: 21px;
+    color: #000;
+    padding-left: 10px; }
+    @media (min-width: 768px) {
+      .about__header {
+        font-size: 60px; } }
+  .about__p {
+    font-weight: lighter;
+    font-size: 16px;
+    padding-left: 10px; }
+    @media (min-width: 768px) {
+      .about__p {
+        font-size: 24px; } }
+  .about__author {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 15px;
+    padding-left: 10px; }
+    @media (min-width: 768px) {
+      .about__author {
+        font-size: 36px; } }
+
+.biography {
+  max-width: 100%; }
+
+.portf {
+  background: #fff url("../img/bkg-portfolio.jpg");
+  background-size: cover; }
+  .portf__h {
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 24px;
+    text-align: center;
+    color: #ffffff;
+    margin: 15px 0;
+    margin-top: 45px; }
+    @media (min-width: 768px) {
+      .portf__h {
+        font-size: 60px;
+        margin: 90px 0; } }
+
+.galery {
+  padding: 0; }
+  .galery ul {
+    text-align: center;
+    padding: 0;
+    max-width: 1600px;
+    margin: 0 auto; }
+    .galery ul li {
+      text-align: center;
+      padding: 15px; }
+      @media (min-width: 480px) {
+        .galery ul li {
+          float: left;
+          width: 50%; } }
+      @media (min-width: 767px) {
+        .galery ul li {
+          width: 33.333%; } }
+      @media (min-width: 992px) {
+        .galery ul li {
+          width: 20%; } }
+    .galery ul img {
+      display: block;
+      max-width: 100%;
+      margin: 0 auto; }
+
+.contacts {
+  margin-top: 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000; }
+  @media (min-width: 768px) {
+    .contacts {
+      margin-top: 50px; } }
+  .contacts__h {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px; }
+    @media (min-width: 768px) {
+      .contacts__h {
+        margin-top: 60px; } }
+  .contacts__mail {
+    font-weight: lighter;
+    font-size: 60px;
+    text-decoration: none;
+    color: #000;
+    margin-top: 45px; }
+    .contacts__mail:hover {
+      text-decoration: none; }
+  .contacts__phone {
+    font-weight: lighter;
+    font-size: 48px;
+    color: #000;
+    margin-top: 45px; }
+  .contacts__social {
+    margin-top: 15px; }
+    .contacts__social a {
+      text-decoration: none;
+      margin-left: 25px; }
+    .contacts__social a:first-child {
+      margin-left: 0; }
+
+.footer {
+  border-top: 1px solid #888;
+  text-align: center;
+  margin-top: 100px;
+  padding-top: 40px;
+  padding-bottom: 45px;
+  color: #888;
+  font-size: 18px;
+  font-weight: lighter;
+  text-transform: uppercase; }
+
+@media (max-width: 767px) {
+  .contacts__h {
+    font-size: 20px; }
+  .contacts__mail {
+    font-size: 20px; }
+  .contacts__phone {
+    font-size: 25px; } }
